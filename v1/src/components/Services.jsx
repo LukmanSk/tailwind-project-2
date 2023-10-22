@@ -4,13 +4,13 @@ import carpentyImg from "../assets/carpenty.png";
 /* eslint-disable react/prop-types */
 const Services = ({ heading }) => {
   return (
-    <section className="services bg-colorDark text-white">
-      <div className="wrapper">
-        <div className="section__heading py-14 text-center font-titillium text-[36px] font-bold">
+    <section className="services  text-white | bg-colorDark | ">
+      <div className="wrapper container mx-auto">
+        <div className="section__heading px-4 py-14 text-center font-titillium text-[36px] font-bold">
           <h2>{heading}</h2>
         </div>
-        <div className="grid-container">
-          {[...new Array(1)].map((_, i) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 px-5 pb-14 gap-4">
+          {[...new Array(4)].map((_, i) => (
             <Card
               key={i}
               title="Carpentry"
