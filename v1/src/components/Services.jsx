@@ -5,7 +5,7 @@ import carpentyImg from "../assets/carpenty.png";
 const Services = ({ heading }) => {
   return (
     <section className="services  text-white | bg-colorDark | ">
-      <div className="wrapper container mx-auto">
+      <div className="wrapper container mx-auto pb-[5rem]">
         <div className="section__heading px-4 py-14 text-center font-titillium text-[36px] font-bold">
           <h2>{heading}</h2>
         </div>

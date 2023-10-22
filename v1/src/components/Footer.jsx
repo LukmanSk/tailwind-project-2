@@ -9,9 +9,9 @@ const Footer = () => {
           <a href="" className="text-[#e9ade0] underline">
             Website Templates
           </a>{" "}
-          created with{" "}
+          created by{" "}
           <a href="" className="text-[#e9ade0] underline">
-            WYSIWYG HTML Editor.
+            Lukman using tailwind
           </a>
         </p>
       </div>
